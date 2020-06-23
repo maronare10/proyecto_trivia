@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #dde1ff 0%, #aeeeee 100%);
+  margin: 100px;
+  color: white;
+}
+
+button {
+background: MidnightBlue;
+margin: 5px;
+padding: 5px;
+width: 200px;
+height: 40px;
+border-radius: 5px;
+color: white;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  width: 190px;
+  height: 20px;
+  border-radius: 5px;
+  color: blue;
+}
+
+.header {
+  text-align: center;
+  background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  border-radius: 5px 5px 0 0px;
+  padding: 50px 0px 0px;
+
+}
+
+.pantalla {
+  /*border: 3px solid green;*/
+  width: 500px;
+  background: lightblue;
+  text-align: center;
+  padding: 32px;
+  display: none;
+  background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+
+}
+
+.mostrar{
+  display: block;
+}
+
+.footer {
+  /*border: 2px solid green;*/
+  background: SteelBlue;
+  text-align: center;
+  padding: 16px;
+  border-radius: 0 0 5px 5px;
+
+}
+
+
+
+

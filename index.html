@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Proyecto Trivia</title>
+  <link rel="stylesheet" href="trivia.css">
+ </head>
+ <body>
+    <div>
+      <header class="header">
+      <img src="imagenes/cerebro.png" alt="Cerebro logo" width="150">
+      </header>
+
+      <section class="pantalla mostrar" id="pantalla1">
+        <h1>Trivia del Conocimiento</h1>
+        <h3>Juego divertido de preguntas y respuestas para entretener a toda la familia</h3>
+        <h2>Bienvenid@</h2>
+        <div>
+         <input id="nameInput" type="text" placeholder="Ingrese su nombre:" autofocus>
+        </div>
+        <div>
+         <button id="playButton" type="button">Jugar</button>
+        </div>
+      </section>
+
+      <section class="pantalla" id="pantalla2">
+        <h2 id="greeting">¡Hola!</h2>
+        <p>Elige la temática:</p>
+        <div>
+         <button id="historyTopicButton" type="button">Historia</button>
+        </div>
+        <div>
+         <button id="mathTopicButton" type="button">Razonamiento Matemático</button>
+        </div>
+        <div>
+         <button id="backButtonPantalla2" type="button">Regresar</button></div>
+      </section>
+
+      <section class="pantalla" id="pantalla3History">
+        <h2>Historia: Pregunta 1</h2>
+        <p>1.¿La cultura Nazca se ubica en el departamento de?</p>
+        <div>
+         <button id="answer2Question1Topic1" type="button" value="Ica">Ica</button>
+        </div>
+        <div>
+         <button id="answer1Question1Topic1" type="button" value="Lima">Lima</button>
+        </div>
+         <div>
+         <button id="answer3Question1Topic1" type="button" value="Chiclayo">Chiclayo</button>
+        </div>
+         <div><button  id="backButtonTopic1" type="button">Regresar</button> </div>
+      </section>
+
+      <section class="pantalla" id="pantalla4History">
+        <h2>Historia: Pregunta 2</h2>
+        <p>2.¿La capital de la cultura Chimú es?</p>
+        <div>
+         <button id="answer1Question2Topic1" type="button" value="Cuzco">
+          Cuzco</button>
+        </div>
+        <div>
+         <button id="answer2Question2Topic1" type="button" value="Chan Chan">Chan Chan</button>
+        </div>
+        <div>
+         <button id="answer3Question2Topic1" type="button" value="Sipán">Sipán  </button>
+        </div>
+      </section>
+      
+      <section class="pantalla" id="pantalla5History">
+        <h2>Historia: Pregunta 3</h2>
+        <p>3.¿Primer pintor de las cavernas?</p>
+        <div>
+          <button id="answer1Question3Topic1" type="button" value="Lauricochas">Lauricochas</button>
+        </div>
+        <div>
+         <button id="answer2Question3Topic1" type="button" value="Pacaicasa">Pacaicasa</button>
+        </div>
+        <div>
+         <button id="answer3Question3Topic1" type="button" value="Toquepala">Toquepala</button>
+        </div>
+      </section>
+
+      <section class="pantalla" id="pantalla6Math">
+        <h2>Razonamiento Matemático: Pregunta 1</h2>
+        <p>1.¿Como se llama el polígono de siete lados?</p>
+        <div>
+          <button id="answer1Question1Topic2" type="button" value="Heptágono">Heptágono</button>
+        </div>
+        <div>
+         <button id="answer2Question1Topic2" type="button" value="Hexágono">Hexágono</button>
+        </div>
+        <div>
+         <button id="answer3Question1Topic2" type="button" value="Septágono">Septágono</button>
+        </div>
+        <div>
+          <button id="backButtonTopic2" type="button">     Regresar</button>
+        </div>
+      </section>
+
+      <section class="pantalla" id="pantalla7Math">
+        <h2>Razonamiento Matemático: Pregunta 2</h2>
+        <p>1.¿Cual es el nombre del triángulo que tiene dos lados iguales y uno desigual?</p>
+        <div>
+          <button id="answer1Question2Topic2" type="button" value="Escaleno">Escaleno</button>
+        </div>
+        <div>
+         <button id="answer2Question2Topic2" type="button" value="Isósceles">Isósceles</button>
+        </div>
+        <div>
+         <button id="answer3Question2Topic2" type="button" value="Equilátero">Equilátero</button>
+        </div>
+      </section>
+      
+      <section class="pantalla" id="pantalla8Math">
+        <h2>Razonamiento Matemático: Pregunta 3</h2>
+        <p>1.¿Cuantos metros es un hectómetro?</p>
+        <div>
+          <button id="answer1Question3Topic2" type="button" value="10 metros">10 metros</button>
+        </div>
+        <div>
+          <button id="answer2Question3Topic2" type="button" value="1 metro">1 metro</button>
+        </div>
+        <div>
+         <button id="answer3Question3Topic2" type="button" value="100 metros">100 metros</button>
+        </div>
+      </section>
+
+      <section class="pantalla" id="pantalla9">
+        <h2 id="message"></h2>
+        <div>
+          <img id="smile" src="" alt="smile" width="80">
+        </div>
+          <p id="totalCorrect"> ✔ Respuestas correctas: </p>
+          <p id="totalIncorrect"> ✘ Respuestas incorrectas: </p>
+        <div>
+          <button id="starButton" type="button">Inicio</button>
+        </div>
+        <div>
+          <button id="keepPlayingButton" type="button">Seguir jugando</button>
+        </div>
+      </section>
+      
+      <footer class="footer"> © Hecho por Mariana Navarro & Yrina Suarez</footer>
+    
+    <script src="trivia.js"></script>
+    </div>
+ </body>
+</html>
