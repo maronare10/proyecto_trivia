@@ -2,7 +2,6 @@ body {
   display: flex;
   justify-content: center;
   background-image: linear-gradient(to right, #dde1ff 0%, #aeeeee 100%);
-  margin: 100px;
   color: white;
 }
 
@@ -29,7 +28,7 @@ input {
   text-align: center;
   background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
   border-radius: 5px 5px 0 0px;
-  padding: 50px 0px 0px;
+  padding: 25px 0px 0px;
 
 }
 
@@ -38,7 +37,7 @@ input {
   width: 500px;
   background: lightblue;
   text-align: center;
-  padding: 32px;
+  padding: 25px;
   display: none;
   background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
 
@@ -46,6 +45,10 @@ input {
 
 .mostrar{
   display: block;
+}
+
+.message{
+margin-top: 0;
 }
 
 .footer {
