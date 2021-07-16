@@ -3,4 +3,4 @@
 
 
 
-Hecho por Mariana Navarro & Yrina Suarez
+Hecho por Mariana Navarro
